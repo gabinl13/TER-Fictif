@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>TER-Fictif</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="jeu">
+
+        <!-- Fond de la map -->
+        <img
+            id="fond"
+            src="images/fond.png"
+            alt="Décor de la ligne"
+        >
+
+        <!-- Rame -->
+        <img
+            id="rame"
+            src="images/rame1.png"
+            alt="Rame"
+        >
+
+        <!-- Interface -->
+        <div id="interface">
+
+            <div class="indicateur">
+                <span>Distance</span>
+                <strong id="distance">0 m</strong>
+            </div>
+
+            <div class="indicateur">
+                <span>Vitesse</span>
+                <strong id="vitesse">0 km/h</strong>
+            </div>
+
+        </div>
+
+        <!-- Commandes -->
+        <div id="commandes">
+
+            <button id="frein">
+                FREIN
+            </button>
+
+            <button id="urgence">
+                FU
+            </button>
+
+            <input
+                id="accelerateur"
+                type="range"
+                min="0"
+                max="100"
+                value="0"
+            >
+
+            <span>Accélérateur</span>
+
+        </div>
+
+    </main>
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
