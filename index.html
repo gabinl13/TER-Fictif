@@ -9,7 +9,7 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>TER-Fictif</title>
+    <title>TER - Ligne fictive</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,36 +18,58 @@
 
     <main id="jeu">
 
-        <!-- Fond de la map -->
+        <!-- =========================
+             DÉCOR DE LA LIGNE
+        ========================== -->
+
         <img
             id="fond"
-            src="images/fond.png"
+            src="images/fichier_00000000277081f4a01371aaece18d71.png"
             alt="Décor de la ligne"
         >
 
-        <!-- Rame -->
+
+        <!-- =========================
+             RAME AGC
+        ========================== -->
+
         <img
             id="rame"
-            src="images/rame1.png"
-            alt="Rame"
+            src="images/AGC-R.HDF.png"
+            alt="Rame AGC Hauts-de-France"
         >
 
-        <!-- Interface -->
+
+        <!-- =========================
+             INFORMATIONS
+        ========================== -->
+
         <div id="interface">
 
             <div class="indicateur">
                 <span>Distance</span>
-                <strong id="distance">0 m</strong>
+
+                <strong id="distance">
+                    0 m
+                </strong>
             </div>
+
 
             <div class="indicateur">
                 <span>Vitesse</span>
-                <strong id="vitesse">0 km/h</strong>
+
+                <strong id="vitesse">
+                    0 km/h
+                </strong>
             </div>
 
         </div>
 
-        <!-- Commandes -->
+
+        <!-- =========================
+             COMMANDES
+        ========================== -->
+
         <div id="commandes">
 
             <button id="frein">
@@ -66,14 +88,17 @@
                 value="0"
             >
 
-            <span>Accélérateur</span>
+            <span>
+                Accélérateur
+            </span>
 
         </div>
 
     </main>
 
+
+    <!-- PROGRAMME DU JEU -->
+
     <script src="game.js"></script>
 
-</body>
-
-</html>
+</
